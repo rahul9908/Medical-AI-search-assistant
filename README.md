@@ -70,9 +70,6 @@ medgraph-ai/
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Quick Start
