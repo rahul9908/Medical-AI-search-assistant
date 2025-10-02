@@ -74,7 +74,7 @@ medgraph-ai/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10 or 3.11  
@@ -85,8 +85,8 @@ medgraph-ai/
 **Windows**  
 - [Download Ollama](https://ollama.com/download/windows)  
 - Run:  
-  ```bash
-  ollama pull mistral:latest
+```bash
+ollama pull mistral:latest
 Mac/Linux
 
 bash
@@ -108,7 +108,7 @@ medgraph-ai-venv\Scripts\activate
 # Mac/Linux:
 source medgraph-ai-venv/bin/activate
 
-# Install deps
+# Install dependencies
 pip install -r requirements.txt
 3. Load Data
 bash
@@ -120,7 +120,7 @@ Create SQLite DB with 50 patient records
 
 Generate embeddings & build ChromaDB store
 
-✅ Output: "DATA LOADING COMPLETE!"
+Output: "DATA LOADING COMPLETE!"
 
 4. Start Server
 bash
@@ -130,20 +130,24 @@ Server: http://localhost:8000
 
 API Docs: http://localhost:8000/docs
 
-📖 API Endpoints
+API Endpoints
 Health Check
+
 http
 Copy code
 GET /health
 List Patients
+
 http
 Copy code
 GET /patients
 Get Patient Records
+
 http
 Copy code
 GET /patients/{patient_id}/records
 Query Records (Main Endpoint)
+
 http
 Copy code
 POST /query
@@ -178,7 +182,7 @@ Copy code
     "total_time_ms": 2340
   }
 }
-🧪 Testing
+Testing
 Run all tests:
 
 bash
@@ -191,7 +195,7 @@ Copy code
 python app/agents/router.py
 python app/agents/retriever.py
 python app/graph/workflow.py
-💡 Example Queries
+Example Queries
 Medication
 
 json
@@ -217,18 +221,18 @@ General Health
 json
 Copy code
 { "question": "Tell me about Jennifer Taylor's mental health treatment" }
-🔍 How It Works
-Router Agent → Classifies query (Medication, Diagnosis, Labs, Timeline, General).
+How It Works
+Router Agent → Classifies query (Medication, Diagnosis, Labs, Timeline, General)
 
-Retrieval Agent → Hybrid search: ChromaDB (semantic) + SQLite (keyword).
+Retrieval Agent → Hybrid search: ChromaDB (semantic) + SQLite (keyword)
 
-Context Builder → Sorts chronologically & filters relevant context.
+Context Builder → Sorts chronologically & filters relevant context
 
-Citation Agent → Extracts evidence & assigns confidence scores.
+Citation Agent → Extracts evidence & assigns confidence scores
 
-Answer Agent → Generates structured, evidence-based response via Mistral.
+Answer Agent → Generates structured, evidence-based response via Mistral
 
-📊 Sample Dataset
+Sample Dataset
 Includes 50 synthetic records for 10 demo patients:
 
 P001: John Doe (Hypertension)
@@ -251,7 +255,7 @@ P009: Christopher Lee (Knee Sprain)
 
 P010: Patricia White (GERD)
 
-🛡️ Troubleshooting
+Troubleshooting
 Ollama connection refused → Run ollama serve & check ollama list
 
 No module named 'app' → Activate virtual environment & run from root dir
@@ -260,26 +264,29 @@ Database not found → Re-run python data/load_data.py
 
 Slow response → First call is slower; use smaller models if needed
 
-🎯 Future Enhancements
- Expand dataset with more patients
+Future Enhancements
+Expand dataset with more patients
 
- Add caching for faster queries
+Add caching for faster queries
 
- Streaming responses
+Streaming responses
 
- Support for medical images
+Support for medical images
 
- Multi-turn conversation support
+Multi-turn conversation support
 
- Fine-tuned embeddings on medical corpora
+Fine-tuned embeddings on medical corpora
 
- GraphQL API
+GraphQL API
 
- Docker deployment
+Docker deployment
 
-📝 License
+License
 This project is for educational purposes only.
 
-👨‍💻 Author
+Author
 Rahul Tammalla
 Built as a demonstration of multi-agent RAG systems for healthcare.
+
+yaml
+Copy code
