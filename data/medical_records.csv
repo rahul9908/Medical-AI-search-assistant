@@ -1,0 +1,52 @@
+patient_id,patient_name,date,record_type,description,medication,diagnosis,lab_result,doctor
+P001,John Doe,2024-01-15,visit,Patient presents with elevated blood pressure and reports headaches,Lisinopril 10mg daily,Hypertension Stage 1,BP: 145/92 mmHg,Dr. Sarah Smith
+P001,John Doe,2024-02-20,lab,Routine lipid panel and metabolic panel,None,None,"Cholesterol: 215 mg/dL, LDL: 145 mg/dL, HDL: 42 mg/dL, Triglycerides: 180 mg/dL",Dr. Sarah Smith
+P001,John Doe,2024-03-10,visit,Follow-up for hypertension management - blood pressure improved,Lisinopril 10mg daily (continued),Hypertension Stage 1,BP: 132/85 mmHg,Dr. Sarah Smith
+P001,John Doe,2024-05-22,lab,Fasting blood glucose and HbA1c,None,None,"Glucose: 118 mg/dL, HbA1c: 5.9%",Dr. Sarah Smith
+P001,John Doe,2024-07-18,visit,Annual physical examination - all systems reviewed,Lisinopril 10mg daily,Hypertension Stage 1,BP: 128/82 mmHg,Dr. Sarah Smith
+P002,Jane Smith,2024-01-08,visit,Patient complains of persistent cough and mild fever for 5 days,Azithromycin 250mg for 5 days,Acute Bronchitis,Temperature: 100.8°F,Dr. Michael Johnson
+P002,Jane Smith,2024-01-20,visit,Follow-up for bronchitis - symptoms resolved,None,Acute Bronchitis (resolved),Temperature: 98.4°F,Dr. Michael Johnson
+P002,Jane Smith,2024-03-15,visit,Routine annual checkup - patient in good health,None,None,All vitals normal,Dr. Michael Johnson
+P002,Jane Smith,2024-06-10,lab,Complete blood count and thyroid panel,None,None,"WBC: 7.2 K/uL, RBC: 4.8 M/uL, TSH: 2.1 mIU/L",Dr. Michael Johnson
+P002,Jane Smith,2024-09-05,visit,Preventive care visit - vaccinations updated,None,None,BP: 118/76 mmHg,Dr. Michael Johnson
+P003,Robert Wilson,2024-02-12,visit,New patient - type 2 diabetes management,Metformin 500mg twice daily,Type 2 Diabetes Mellitus,HbA1c: 8.2%,Dr. Emily Chen
+P003,Robert Wilson,2024-02-12,lab,Comprehensive metabolic panel,None,None,"Glucose: 185 mg/dL, Creatinine: 1.1 mg/dL, eGFR: 78 mL/min",Dr. Emily Chen
+P003,Robert Wilson,2024-04-18,visit,Diabetes follow-up - blood sugar improving,Metformin 1000mg twice daily,Type 2 Diabetes Mellitus,HbA1c: 7.4%,Dr. Emily Chen
+P003,Robert Wilson,2024-06-22,lab,Fasting lipid panel,None,None,"Cholesterol: 198 mg/dL, LDL: 125 mg/dL, HDL: 48 mg/dL",Dr. Emily Chen
+P003,Robert Wilson,2024-08-15,visit,Routine diabetes check - medication adjusted,Metformin 1000mg twice daily + Glipizide 5mg daily,Type 2 Diabetes Mellitus,HbA1c: 6.9%,Dr. Emily Chen
+P004,Maria Garcia,2024-01-25,visit,Patient presents with seasonal allergies and nasal congestion,Cetirizine 10mg daily,Allergic Rhinitis,None,Dr. David Lee
+P004,Maria Garcia,2024-03-30,visit,Allergy symptoms controlled with medication,Cetirizine 10mg daily (as needed),Allergic Rhinitis,None,Dr. David Lee
+P004,Maria Garcia,2024-05-12,visit,Well-woman exam - pap smear performed,None,None,All results normal,Dr. David Lee
+P004,Maria Garcia,2024-07-20,lab,Vitamin D and calcium levels,None,None,"Vitamin D: 28 ng/mL, Calcium: 9.4 mg/dL",Dr. David Lee
+P004,Maria Garcia,2024-09-10,visit,Patient reports fatigue - started vitamin D supplement,Vitamin D 2000 IU daily,Vitamin D Deficiency,None,Dr. David Lee
+P005,Michael Brown,2024-02-05,visit,Acute visit for lower back pain after lifting heavy objects,Ibuprofen 600mg three times daily,Acute Lumbar Strain,None,Dr. Sarah Smith
+P005,Michael Brown,2024-02-19,visit,Physical therapy referral for back pain,Ibuprofen 600mg as needed,Acute Lumbar Strain,Pain level: 3/10,Dr. Sarah Smith
+P005,Michael Brown,2024-04-10,visit,Back pain resolved - cleared to return to normal activities,None,Acute Lumbar Strain (resolved),None,Dr. Sarah Smith
+P005,Michael Brown,2024-06-15,visit,Routine physical - patient healthy and active,None,None,BP: 122/78 mmHg,Dr. Sarah Smith
+P005,Michael Brown,2024-08-22,lab,Routine cholesterol screening,None,None,"Cholesterol: 178 mg/dL, LDL: 102 mg/dL, HDL: 58 mg/dL",Dr. Sarah Smith
+P006,Jennifer Taylor,2024-01-18,visit,Patient diagnosed with mild depression and anxiety,Sertraline 50mg daily,Major Depressive Disorder (mild),PHQ-9 score: 12,Dr. Lisa Anderson
+P006,Jennifer Taylor,2024-03-15,visit,Depression improving - medication titrated,Sertraline 100mg daily,Major Depressive Disorder,PHQ-9 score: 7,Dr. Lisa Anderson
+P006,Jennifer Taylor,2024-05-20,visit,Mental health follow-up - patient doing well,Sertraline 100mg daily,Major Depressive Disorder,PHQ-9 score: 4,Dr. Lisa Anderson
+P006,Jennifer Taylor,2024-07-12,lab,Thyroid function test to rule out medical causes,None,None,"TSH: 1.8 mIU/L, Free T4: 1.2 ng/dL",Dr. Lisa Anderson
+P006,Jennifer Taylor,2024-09-08,visit,Continued mental health management - stable,Sertraline 100mg daily,Major Depressive Disorder,PHQ-9 score: 3,Dr. Lisa Anderson
+P007,David Martinez,2024-02-28,visit,Patient with history of asthma - experiencing increased symptoms,Albuterol inhaler as needed + Fluticasone inhaler twice daily,Asthma (moderate persistent),Peak flow: 380 L/min,Dr. Michael Johnson
+P007,David Martinez,2024-04-15,visit,Asthma control improved - no recent exacerbations,Albuterol inhaler as needed + Fluticasone inhaler twice daily,Asthma (moderate persistent),Peak flow: 450 L/min,Dr. Michael Johnson
+P007,David Martinez,2024-06-20,lab,Pulmonary function test,None,None,"FEV1: 82% predicted, FVC: 88% predicted",Dr. Michael Johnson
+P007,David Martinez,2024-08-10,visit,Seasonal asthma flare - increased rescue inhaler use,Albuterol inhaler as needed + Fluticasone inhaler twice daily + Prednisone 40mg for 5 days,Asthma exacerbation,Peak flow: 360 L/min,Dr. Michael Johnson
+P007,David Martinez,2024-09-25,visit,Post-exacerbation follow-up - symptoms resolved,Albuterol inhaler as needed + Fluticasone inhaler twice daily,Asthma (moderate persistent),Peak flow: 440 L/min,Dr. Michael Johnson
+P008,Linda Anderson,2024-01-12,visit,New patient visit - history of hypothyroidism,Levothyroxine 75mcg daily,Hypothyroidism,None,Dr. Emily Chen
+P008,Linda Anderson,2024-03-18,lab,Thyroid function monitoring,None,None,"TSH: 3.2 mIU/L, Free T4: 1.1 ng/dL",Dr. Emily Chen
+P008,Linda Anderson,2024-06-22,visit,Thyroid levels stable - continue current dose,Levothyroxine 75mcg daily,Hypothyroidism,None,Dr. Emily Chen
+P008,Linda Anderson,2024-07-30,visit,Patient reports hair loss and fatigue - thyroid recheck ordered,Levothyroxine 75mcg daily,Hypothyroidism,None,Dr. Emily Chen
+P008,Linda Anderson,2024-08-15,lab,Repeat thyroid panel and complete blood count,None,None,"TSH: 5.8 mIU/L, Free T4: 0.9 ng/dL, Hemoglobin: 12.1 g/dL",Dr. Emily Chen
+P008,Linda Anderson,2024-09-01,visit,Levothyroxine dose increased based on lab results,Levothyroxine 88mcg daily,Hypothyroidism,None,Dr. Emily Chen
+P009,Christopher Lee,2024-03-05,visit,Patient presents with right knee pain and swelling after sports injury,Naproxen 500mg twice daily,Knee Sprain,Swelling and tenderness noted,Dr. David Lee
+P009,Christopher Lee,2024-03-20,visit,Knee pain improving with rest and anti-inflammatory medication,Naproxen 500mg twice daily (continue),Knee Sprain,Reduced swelling,Dr. David Lee
+P009,Christopher Lee,2024-04-28,visit,Knee fully healed - cleared for sports activities,None,Knee Sprain (resolved),Full range of motion,Dr. David Lee
+P009,Christopher Lee,2024-07-15,visit,Pre-participation sports physical,None,None,All systems normal - cleared for sports,Dr. David Lee
+P009,Christopher Lee,2024-09-20,lab,Routine annual labs,None,None,"Cholesterol: 165 mg/dL, Glucose: 92 mg/dL",Dr. David Lee
+P010,Patricia White,2024-01-22,visit,Patient with GERD - reports frequent heartburn,Omeprazole 20mg daily,Gastroesophageal Reflux Disease,None,Dr. Sarah Smith
+P010,Patricia White,2024-03-28,visit,GERD symptoms improved with medication and lifestyle changes,Omeprazole 20mg daily,Gastroesophageal Reflux Disease,None,Dr. Sarah Smith
+P010,Patricia White,2024-06-15,visit,Continued GERD management - minimal symptoms,Omeprazole 20mg daily,Gastroesophageal Reflux Disease,None,Dr. Sarah Smith
+P010,Patricia White,2024-08-10,lab,H. pylori testing due to persistent symptoms,None,None,H. pylori: Negative,Dr. Sarah Smith
+P010,Patricia White,2024-09-18,visit,GERD well controlled - continue current treatment,Omeprazole 20mg daily,Gastroesophageal Reflux Disease,None,Dr. Sarah Smith
