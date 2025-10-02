@@ -48,27 +48,29 @@ Copy code
 
 ## 📦 Project Structure
 
+```bash
 medgraph-ai/
 ├── app/
-│ ├── main.py # FastAPI entrypoint
-│ ├── schemas.py # Pydantic models
-│ ├── agents/
-│ │ ├── router.py # Agent 1: Query router
-│ │ ├── retriever.py # Agent 2: Retrieval logic
-│ │ ├── context_builder.py # Agent 3: Context builder
-│ │ ├── citation.py # Agent 4: Evidence extraction
-│ │ └── answer.py # Agent 5: Final response
-│ ├── graph/
-│ │ └── workflow.py # LangGraph orchestration
-│ └── database/
-│ └── db.py # SQLite + ChromaDB integration
+│   ├── main.py                 # FastAPI entrypoint
+│   ├── schemas.py              # Pydantic models
+│   ├── agents/
+│   │   ├── router.py           # Agent 1: Query router
+│   │   ├── retriever.py        # Agent 2: Retrieval logic
+│   │   ├── context_builder.py  # Agent 3: Context builder
+│   │   ├── citation.py         # Agent 4: Evidence extraction
+│   │   └── answer.py           # Agent 5: Final response
+│   ├── graph/
+│   │   └── workflow.py         # LangGraph orchestration
+│   └── database/
+│       └── db.py               # SQLite + ChromaDB integration
 ├── data/
-│ ├── medical_records.csv # Synthetic dataset (50 patients)
-│ └── load_data.py # Data ingestion & embedding
+│   ├── medical_records.csv     # Synthetic dataset (50 patients)
+│   └── load_data.py            # Data ingestion & embedding
 ├── tests/
-│ └── test_api.py # Pytest-based tests
+│   └── test_api.py             # Pytest-based tests
 ├── requirements.txt
 └── README.md
+
 
 ---
 
